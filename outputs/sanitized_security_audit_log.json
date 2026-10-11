@@ -1,0 +1,219 @@
+[
+  {
+    "event_id": "AUD-F490F87E",
+    "timestamp": "2026-10-11T10:13:21.906396+00:00",
+    "doc_id": "DOC-6725835E",
+    "document_name": "Cadence_Group_Risk_Management_Policy__v6.0.pdf",
+    "stage": "SAFE_EXPORT",
+    "action": "Exported sanitized artifact 'Cadence_Group_Risk_Management_Policy__v6.0_REDACTED.pdf'.",
+    "gate_status": "PASS",
+    "details": {
+      "export_filename": "Cadence_Group_Risk_Management_Policy__v6.0_REDACTED.pdf",
+      "bytes": 37471369
+    }
+  },
+  {
+    "event_id": "AUD-1C19BA0B",
+    "timestamp": "2026-10-11T10:13:21.894472+00:00",
+    "doc_id": "DOC-6725835E",
+    "document_name": "Cadence_Group_Risk_Management_Policy__v6.0.pdf",
+    "stage": "HUMAN_REVIEW_REVALIDATION",
+    "action": "Analyst reviewed and approved 1 flagged finding(s).",
+    "gate_status": "PASS",
+    "details": {
+      "active_findings_count": 789,
+      "unresolved_review_count": 0,
+      "residual_pii_found": false,
+      "gate_status": "PASS"
+    }
+  },
+  {
+    "event_id": "AUD-CB802EBF",
+    "timestamp": "2026-10-11T10:13:13.871358+00:00",
+    "doc_id": "DOC-6725835E",
+    "document_name": "Cadence_Group_Risk_Management_Policy__v6.0.pdf",
+    "stage": "PRIVACY_GATE",
+    "action": "Completed redaction and independent validation. Gate=REVIEW_REQUIRED",
+    "gate_status": "REVIEW_REQUIRED",
+    "details": {
+      "findings_total": 789,
+      "active_redactions": 789,
+      "findings_by_category": {
+        "PERSON_NAME": 339,
+        "EMPLOYEE_ID": 188,
+        "EMAIL": 147,
+        "PHONE_NUMBER": 103,
+        "ADDRESS": 2,
+        "DATE_OF_BIRTH": 2,
+        "GOVERNMENT_ID_STYLE": 4,
+        "TAX_ID_PAN_STYLE": 2,
+        "ACCOUNT_NUMBER": 2
+      },
+      "residual_pii_found": false,
+      "unresolved_review_count": 1,
+      "structure_retention_score": 0.986,
+      "llm_handoff_permitted": false,
+      "processing_time_ms": 13887.1
+    }
+  },
+  {
+    "event_id": "AUD-F6587BD8",
+    "timestamp": "2026-10-11T10:13:04.919944+00:00",
+    "doc_id": "DOC-6725835E",
+    "document_name": "Cadence_Group_Risk_Management_Policy__v6.0.pdf",
+    "stage": "EXTRACTION",
+    "action": "Completed format-aware extraction (SCANNED_PDF).",
+    "gate_status": null,
+    "details": {
+      "total_pages_or_slides": 35,
+      "segments_extracted": 3294,
+      "tables_count": 0,
+      "ocr_pages_count": 35,
+      "embedded_images_count": 35
+    }
+  },
+  {
+    "event_id": "AUD-BC607382",
+    "timestamp": "2026-10-11T10:12:59.989999+00:00",
+    "doc_id": "DOC-6725835E",
+    "document_name": "Cadence_Group_Risk_Management_Policy__v6.0.pdf",
+    "stage": "FILE_VALIDATION",
+    "action": "Validated file extension, magic signature, and archive safety.",
+    "gate_status": null,
+    "details": {
+      "file_size_bytes": 14094994,
+      "base_format": "PDF",
+      "mime_type": "application/pdf"
+    }
+  },
+  {
+    "event_id": "AUD-3A8668CE",
+    "timestamp": "2026-10-11T10:12:59.954464+00:00",
+    "doc_id": "DOC-1DB62F6D",
+    "document_name": "Cadence_TPRM_Training.docx",
+    "stage": "SAFE_EXPORT",
+    "action": "Exported sanitized artifact 'Cadence_TPRM_Training_REDACTED.docx'.",
+    "gate_status": "PASS",
+    "details": {
+      "export_filename": "Cadence_TPRM_Training_REDACTED.docx",
+      "bytes": 4573477
+    }
+  },
+  {
+    "event_id": "AUD-0F50312B",
+    "timestamp": "2026-10-11T10:12:59.934763+00:00",
+    "doc_id": "DOC-1DB62F6D",
+    "document_name": "Cadence_TPRM_Training.docx",
+    "stage": "PRIVACY_GATE",
+    "action": "Completed redaction and independent validation. Gate=PASS",
+    "gate_status": "PASS",
+    "details": {
+      "findings_total": 51,
+      "active_redactions": 51,
+      "findings_by_category": {
+        "PERSON_NAME": 51
+      },
+      "residual_pii_found": false,
+      "unresolved_review_count": 0,
+      "structure_retention_score": 0.9985,
+      "llm_handoff_permitted": true,
+      "processing_time_ms": 3659.78
+    }
+  },
+  {
+    "event_id": "AUD-F11B0298",
+    "timestamp": "2026-10-11T10:12:57.326403+00:00",
+    "doc_id": "DOC-1DB62F6D",
+    "document_name": "Cadence_TPRM_Training.docx",
+    "stage": "EXTRACTION",
+    "action": "Completed format-aware extraction (DOCX).",
+    "gate_status": null,
+    "details": {
+      "total_pages_or_slides": 11,
+      "segments_extracted": 3752,
+      "tables_count": 16,
+      "ocr_pages_count": 0,
+      "embedded_images_count": 35
+    }
+  },
+  {
+    "event_id": "AUD-9B5EBBAD",
+    "timestamp": "2026-10-11T10:12:56.277597+00:00",
+    "doc_id": "DOC-1DB62F6D",
+    "document_name": "Cadence_TPRM_Training.docx",
+    "stage": "FILE_VALIDATION",
+    "action": "Validated file extension, magic signature, and archive safety.",
+    "gate_status": null,
+    "details": {
+      "file_size_bytes": 4830291,
+      "base_format": "DOCX",
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+    }
+  },
+  {
+    "event_id": "AUD-D408BB07",
+    "timestamp": "2026-10-11T10:12:56.237508+00:00",
+    "doc_id": "DOC-A08FBD28",
+    "document_name": "Cadence_Financial_Group_Organizational_Pack.pptx",
+    "stage": "SAFE_EXPORT",
+    "action": "Exported sanitized artifact 'Cadence_Financial_Group_Organizational_Pack_REDACTED.pptx'.",
+    "gate_status": "PASS",
+    "details": {
+      "export_filename": "Cadence_Financial_Group_Organizational_Pack_REDACTED.pptx",
+      "bytes": 67154
+    }
+  },
+  {
+    "event_id": "AUD-3AE17451",
+    "timestamp": "2026-10-11T10:12:56.229557+00:00",
+    "doc_id": "DOC-A08FBD28",
+    "document_name": "Cadence_Financial_Group_Organizational_Pack.pptx",
+    "stage": "PRIVACY_GATE",
+    "action": "Completed redaction and independent validation. Gate=PASS",
+    "gate_status": "PASS",
+    "details": {
+      "findings_total": 123,
+      "active_redactions": 123,
+      "findings_by_category": {
+        "PERSON_NAME": 55,
+        "EMAIL": 34,
+        "PHONE_NUMBER": 34
+      },
+      "residual_pii_found": false,
+      "unresolved_review_count": 0,
+      "structure_retention_score": 0.9985,
+      "llm_handoff_permitted": true,
+      "processing_time_ms": 404.31
+    }
+  },
+  {
+    "event_id": "AUD-B9407D6C",
+    "timestamp": "2026-10-11T10:12:55.955136+00:00",
+    "doc_id": "DOC-A08FBD28",
+    "document_name": "Cadence_Financial_Group_Organizational_Pack.pptx",
+    "stage": "EXTRACTION",
+    "action": "Completed format-aware extraction (PPTX).",
+    "gate_status": null,
+    "details": {
+      "total_pages_or_slides": 9,
+      "segments_extracted": 426,
+      "tables_count": 3,
+      "ocr_pages_count": 0,
+      "embedded_images_count": 1
+    }
+  },
+  {
+    "event_id": "AUD-421AF534",
+    "timestamp": "2026-10-11T10:12:55.827411+00:00",
+    "doc_id": "DOC-A08FBD28",
+    "document_name": "Cadence_Financial_Group_Organizational_Pack.pptx",
+    "stage": "FILE_VALIDATION",
+    "action": "Validated file extension, magic signature, and archive safety.",
+    "gate_status": null,
+    "details": {
+      "file_size_bytes": 72043,
+      "base_format": "PPTX",
+      "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation"
+    }
+  }
+]
