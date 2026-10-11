@@ -121,4 +121,5 @@ python -m pytest tests/test_pipeline_and_gate.py -v
 - [`docs/demo_script.md`](file:///c:/Users/dhars/Projects/PII%20remover/docs/demo_script.md) — 10–15 minute live demonstration walkthrough and speaker script.
 - [`docs/Cadence_PII_Redaction_Architecture_and_Demo.pptx`](file:///c:/Users/dhars/Projects/PII%20remover/docs/Cadence_PII_Redaction_Architecture_and_Demo.pptx) — 10-slide executive and technical presentation deck.
 #   P I I _ D e t e c t i o n  
+ #   P I I _ D e t e c t i o n  
  
